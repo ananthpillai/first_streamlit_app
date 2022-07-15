@@ -54,9 +54,9 @@ streamlit.write('The user entered ', fruit_choice)
  
 
 # dont run anything past here while we troubleshoot 
-streamlit.stop()
+####streamlit.stop()
 
-#####################
+ 
 
 streamlit.header("The Fruit load list contains:")
 # snowflake related fucntions 

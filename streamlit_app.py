@@ -60,7 +60,7 @@ if streamlit.button('Get fruit load list'):
 
 
 ######  dont run anything past here while we troubleshoot 
-streamlit.stop()
+#streamlit.stop()
 
 fruit_add_by_user = streamlit.text_input('What fruit would you like to add?','')
 streamlit.write('Thanks for adding ', fruit_add_by_user)
